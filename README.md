@@ -6,10 +6,10 @@ This project implements an Asteroids game with an AI controlled by a neural netw
 
 The game is developed for **Android** using the **Processing APDE app** but can be easily ported to **PC** by replacing the touch commands with keyboard or mouse inputs.
 
-[Game Screenshot](images/Screenshot_1.jpg)
+[Game Screenshot](images/Screenshot_1_APDE Sketch Preview.jpg)
 *Gameplay with AI learning enabled.*
 
-![Neural Network Visualization](images/Screenshot_2.jpg)
+![Neural Network Visualization](images/Screenshot_2_APDE Sketch Preview.jpg)
 *Neural network processing sensor data in real-time.*
 
 ## **Features**
