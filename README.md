@@ -17,6 +17,7 @@ This project implements an Asteroids game with an AI controlled by a neural netw
 - **Multiple sensors** to detect obstacles and movement.
 - **Statistics & visualizations** to track learning progress.
 - **Customizable network structure** for experimenting with different AI approaches.
+- Code and Game written in German.
 
 ## **Installation & Requirements**
 
