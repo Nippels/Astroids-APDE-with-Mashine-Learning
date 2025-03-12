@@ -3,6 +3,7 @@
 ## **Description**
 
 This project implements an Asteroids game with an AI controlled by a neural network. The player can switch between manual mode and AI-controlled mode. The AI uses reinforcement learning to optimize its control.
+The Code is written in Processing - which is basicly a Java Library - on my Android phone, with the APDE app. I have no Idea of Neural Networks. The Code is far from optimal, but runs quite decently!
 
 ![Game Screenshot](images/Screenshot_1.jpg)
 *Gameplay with AI learning enabled.*
@@ -35,11 +36,12 @@ This project implements an Asteroids game with an AI controlled by a neural netw
 
 ## **Usage**
 
-1. **Select game mode**:
-   - `learningMode = false;` → Player controls the spaceship
-   - `learningMode = true;` → AI takes over control
-2. **Adjust parameters** (learning rate, neural layers, sensor data, etc.)
-3. **Start the game** and observe how the AI improves 🚀
+1. **Select game mode with Arrow Up Button**:
+   - `Lernmodus: Aktiviert` → Player controls the spaceship
+   - `Lernmodus: Deaktiviert` → AI takes over control
+2. **Adjust parameters in Code** (learning rate, neural layers, sensor data, etc.)
+3. **Toggle Neural Net View on and of with Arrow Down Button**
+4. **Start the game** and observe how the AI improves 🚀
 
 ## **Porting to PC**
 
