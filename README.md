@@ -4,12 +4,10 @@
 
 This project implements an Asteroids game with an AI controlled by a neural network. The player can switch between manual mode and AI-controlled mode. The AI uses reinforcement learning to optimize its control.
 
-The game is developed for **Android** using the **Processing APDE app** but can be easily ported to **PC** by replacing the touch commands with keyboard or mouse inputs.
-
-[Game Screenshot](images/Screenshot_1_APDE Sketch Preview.jpg)
+![Game Screenshot](images/Screenshot_1.jpg)
 *Gameplay with AI learning enabled.*
 
-![Neural Network Visualization](images/Screenshot_2_APDE Sketch Preview.jpg)
+![Neural Network Visualization](images/Screenshot_2.jpg)
 *Neural network processing sensor data in real-time.*
 
 ## **Features**
@@ -24,16 +22,15 @@ The game is developed for **Android** using the **Processing APDE app** but can 
 
 ### Prerequisites:
 
-- **Processing** (Java-based development environment)
-- **APDE** (Android Processing Development Environment) for running on Android
+- [Processing IDE](https://processing.org/download) (Java-based development environment)
+- [APDE (Android Processing Development Environment)](https://github.com/Calsign/APDE) if running on Android
 - Standard libraries for vectors and arrays
 
 ### Installation:
 
-1. **Install Processing**: [https://processing.org/download](https://processing.org/download)
-2. **For Android:** Install **APDE** from the Google Play Store
-3. **Download and open the project files**
-4. **Start the game** by running the `GameCode.pde` file
+1. **Install Processing** (or APDE for Android)
+2. **Download and open the project files**
+3. **Start the game** by running `GameCode.pde`
 
 ## **Usage**
 
@@ -45,28 +42,11 @@ The game is developed for **Android** using the **Processing APDE app** but can 
 
 ## **Porting to PC**
 
-To run this game on a **PC**, replace the **touch commands** with equivalent **keyboard or mouse inputs** in the Processing sketch.
-
-## **Neural Network Parameters**
-
-- `alpha` → Learning rate (how quickly the network learns)
-- `gamma` → Future weighting (importance of future rewards)
-- `epsilon` → Exploration rate (percentage of random actions)
-- `numSensors` → Number of sensors for environment perception
-- `networkDepth` → Number of hidden layers in the network
-- `hiddenNodes` → Number of neurons per hidden layer
-- `outputNodes` → Number of output neurons for control decisions
-
-## **Further Development & Customization**
-
-- Adjust **neural network architecture**
-- Experiment with different **learning strategies**
-- Optimize **sensor data processing**
-- Improve **AI strategy using evolution or deep Q-learning**
+This game is originally developed for Android using APDE but can easily be ported to PC by replacing **touch input commands** with **keyboard controls** in `GameCode.pde`.
 
 ## **License**
 
-This project is licensed under the **MIT License**. Free to use, modify, and distribute.
+This project is licensed under the MIT License. Free to use, modify, and distribute.
 
 ---
 
